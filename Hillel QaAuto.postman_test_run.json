@@ -1,0 +1,270 @@
+{
+	"id": "b527129f-e21b-4229-9e46-f65157663c0e",
+	"name": "Hillel QaAuto",
+	"timestamp": "2024-06-19T19:32:07.536Z",
+	"collection_id": "31389786-96bdcfea-4f37-478c-9a83-14a0a62a6824",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-19T19:32:03.000Z",
+	"totalFail": 8,
+	"results": [
+		{
+			"id": "79efd616-766e-4caa-85d0-33ea6cf79ee7",
+			"name": "Create a user",
+			"url": "https://qauto.forstudy.space/api/auth/signup",
+			"time": 205,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "41d23b69-4140-4a27-bf41-aa22d65164a6",
+			"name": "Change his name and surname",
+			"url": "https://qauto.forstudy.space/api/users/profile",
+			"time": 137,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "ec84c2d8-2adf-4db2-b2a4-aede8a46fd2b",
+			"name": "Change its distance to ml",
+			"url": "https://qauto.forstudy.space/api/users/settings",
+			"time": 63,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "de1f220d-6914-4a08-97fe-a11e7d79e9b4",
+			"name": "Add a car (any) to the user",
+			"url": "https://qauto.forstudy.space/api/cars",
+			"time": 70,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "82a88690-4a26-478b-a864-3c222d553044",
+			"name": "Change his mileage",
+			"url": "https://qauto.forstudy.space/api/cars/174083",
+			"time": 69,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "9c99a5fc-cd1b-45e3-a219-7e701a3a5ba5",
+			"name": "Add costs to the car",
+			"url": "https://qauto.forstudy.space/api/expenses",
+			"time": 64,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "95cb648d-d50d-45f9-8f89-7dcccb004f49",
+			"name": "Delete car",
+			"url": "https://qauto.forstudy.space/api/cars/174083",
+			"time": 65,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "658e1b63-0c15-4d4c-90b5-76abb72bba24",
+			"name": "Delete user",
+			"url": "https://qauto.forstudy.space/api/users",
+			"time": 63,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 736,
+	"collection": {
+		"requests": [
+			{
+				"id": "79efd616-766e-4caa-85d0-33ea6cf79ee7",
+				"method": "POST"
+			},
+			{
+				"id": "41d23b69-4140-4a27-bf41-aa22d65164a6",
+				"method": "PUT"
+			},
+			{
+				"id": "ec84c2d8-2adf-4db2-b2a4-aede8a46fd2b",
+				"method": "PUT"
+			},
+			{
+				"id": "de1f220d-6914-4a08-97fe-a11e7d79e9b4",
+				"method": "POST"
+			},
+			{
+				"id": "82a88690-4a26-478b-a864-3c222d553044",
+				"method": "PUT"
+			},
+			{
+				"id": "9c99a5fc-cd1b-45e3-a219-7e701a3a5ba5",
+				"method": "POST"
+			},
+			{
+				"id": "95cb648d-d50d-45f9-8f89-7dcccb004f49",
+				"method": "DELETE"
+			},
+			{
+				"id": "658e1b63-0c15-4d4c-90b5-76abb72bba24",
+				"method": "DELETE"
+			}
+		]
+	}
+}
